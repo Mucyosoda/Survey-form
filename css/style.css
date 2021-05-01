@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+  }
+  
+  body{
+    background-image: url("../images/photo-1473773508845-188df298d2d1.jpg");
+    background-size: cover; 
+  }
+  
+  #banner {
+    padding-top: 86px;
+    height: 400px;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: bisque;
+    font-size: 28px;
+  }
+
+ .getStarted {
+     max-width: 600px;
+    background-color: rgb(17, 114, 82);
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    
+    
+}
+/*
+.form-group{
+    display: flex;
+    flex-flow: nowrap;
+    margin:0 1rem ;
+}
+[class*="form-col"]{
+    flex: 0 1 100%;
+    padding: 0 1rem;
+}
+@media(min-width: 576px){
+    .form-col{
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    .inputform{
+        flex: 0 0 66.66667%;
+        width: 98.66667% ;
+        padding: 3px;
+    }
+    .offset-form-col{
+        margin-left: 33.33333;
+    }
+}
+
+ */
+ .getStarted form label{
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+ }
+  .getStarted form input[type="text"]{
+    width: 400px;
+    max-width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: #d5f1b4;
+    border-radius: 6px;
+    color: rgb(73, 70, 70) ;
+  }
+  .getStarted form input[type="email"]{
+    width: 400px;
+    max-width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: #d5f1b4;
+    border-radius: 6px;
+    color: rgb(73, 70, 70) ;
+  }
+  .getStarted form select{
+    width: 400px;
+    max-width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: #d5f1b4;
+    border-radius: 6px;
+    color: rgb(73, 70, 70) ;
+
+  }
+  .getStarted form textarea{
+    background-color: #d5f1b4;
+    border-radius: 6px;
+
+  }
+  
+  .getStarted form input:hover{
+    border: 2px solid #85B54E;
+    background-color: #f2f5ee;
+  }
+  .getStarted form textarea:hover{
+    border: 2px solid #85B54E;
+    background-color: #f2f5ee;
+  }
+  
+  .getStarted form input[type="submit"] {
+    border: 1px solid #85B54E;
+    outline: none;
+    background-color: #85B54E;
+    color: rgb(133, 42, 42);
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 200px;
+  }
+  
+  .getStarted form input[type="submit"]:hover {
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #85B54E;
+    background-color: #fff;
+    
+  }
+  #footer {
+    color: #d63a12;
+    text-align: center;
+    padding: 10px 5px;
+    margin-top: 60px;
+    font-size: 16px;
+  }

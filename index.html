@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    |<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <section id="banner">
+    <div class="header-text">
+        <h1>freeCodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+    
+<div class="getStarted">
+    <form id="form">
+        <div class="form-group">
+            <div class="form-col">
+                 <label id="firstname" for="name">First Name</label></div>
+        <div class="inputform">
+            <input id="inputfirst" type="text" name="name" class="input-form" placeholder="Enter your First Name" required>
+        </div>
+    </div>
+        <div class="form-group">
+            <div class="form-col">
+                <label id="lastname" for="name">Last Name</label>
+            </div>
+            <div class="inputform">
+                <input id="inputlast" type="text" name="name" class="input-form" placeholder="Enter your Last Name" required>
+            </div>
+         </div>
+         <div class="form-group">
+             <div class="form-col">
+                <label id="email" for="email">Email</label>
+                </div>
+             <div class="inputform">
+                <input id="inputemail" type="email" name="email" class="input-form" placeholder="Enter your email" required>
+        </div>
+         </div>
+         <div class="form-group">
+             <div class="form-col">
+                <label id="year" for="year">Year of Birth</label>
+             </div>
+             <div class="inputform">
+                <input id="inputyear" type="text" name="year" class="input-form" placeholder="Enter only year" required>
+              </div>
+         </div>
+         <div class="form-group">
+             <div class="form-col">
+                <p>Current role</p>
+             </div>
+             <div class="inputform">
+                <select id="selection" name="role" class="formselection" required>
+                    <option disabled selected value="">Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="learner">Learner </option>
+                    <option value="prefer">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+             </div>
+             </div> <br>
+         <div class="form-group">
+            <div class="form-col">
+                <label for="agrement">How do you fell</label>
+            </div>
+            <div class="inputform">  
+                     <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>definitely
+                <br>
+                <input name="user-recommend" value="Yes" type="radio" class="inputradion">YES
+                <br></label>
+                <input name="user-recommend" value="NO" type="radio" class="input-radion">NO
+             <br>
+            <br>
+        </div>
+         </div>
+         <div class="form-group">
+             <div class="form-col">
+                 <label>
+                <p> what would you like to see improve</p>
+                 </label>
+             </n>
+            <div class="inputform">
+                    <input name="prefer" value="frontend" type="checkbox" class="check-box" >Front-end projects
+                 <br>
+                    <input name="prefer" value="backend" type="checkbox" class="check-box">Bank-end projects
+            </div>
+            </div>
+         </div><br>
+            <div class="form-group">
+                <div class="form-col">
+                   <label>Any Comments</label>
+                </div>
+            <div class="inputform">
+               <textarea id="comment" class="input-textarea" rows="5" cols="50" name="comment" placeholder="Enter your comment here...."></textarea>
+            </div>
+        </div>
+            <input type="submit" id="submit" class="submit-button"></button>
+        
+        </div>
+    </form>
+</div>
+<footer id="footer">Designed by Mucyo</footer>
+</body>
+</html>
